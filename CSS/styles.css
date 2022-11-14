@@ -1,5 +1,5 @@
 :root {
-    --primary-text-color:  #757575;
+    --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --footer-color-60: rgba(255, 255, 255, 0.6);
@@ -9,6 +9,7 @@
     --background-color: color #F5F5F5;
     --background-color-dark: color #2F303A;
 }
+
 .body {
     color: var(--primary-text-color);
     background-color: var(--background-color);
@@ -17,7 +18,8 @@
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    }
+}
+
 .logo-web {
     text-decoration: none;
     color: var(--accent-color);
@@ -26,13 +28,16 @@
     font-size: 26px;
     line-height: 1.2;
 }
+
 .colortext-black {
-    color:var(--footer-color);
+    color: var(--footer-color);
     /*logo <span>*/
 }
+
 .colortext-white {
-    color:var(--secondary-title-color);
+    color: var(--secondary-title-color);
 }
+
 .site-nav {
     text-decoration: none;
     color: var(--title-text-color);
@@ -40,6 +45,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
 .site-active {
     color: var(--accent-color);
     text-decoration: none;
@@ -47,11 +53,13 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
 .site-nav:hover,
 .site-nav:focus,
 .site-nav:active {
     color: var(--accent-color);
 }
+
 .auth-nav {
     text-decoration: none;
     color: var(--primary-text-color);
@@ -59,11 +67,13 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
 .auth-nav:hover,
 .auth-nav:focus,
 .auth-nav:active {
     color: var(--accent-color);
 }
+
 .button-index,
 .button-index:hover,
 .button-index:focus,
@@ -81,11 +91,13 @@
     font-size: 16px;
     line-height: 1.85;
 }
+
 .hero {
     height: 600px;
     background-color: #2F303A;
     text-align: center;
 }
+
 .hero-title {
     color: var(--secondary-title-color);
     font-style: normal;
@@ -96,6 +108,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+
 .index-title0 {
     color: var(--title-text-color);
     font-weight: 700;
@@ -103,6 +116,7 @@
     line-height: 1.16;
     text-align: center;
 }
+
 .index-title1 {
     color: var(--title-text-color);
     font-weight: 700;
@@ -110,28 +124,34 @@
     line-height: 1.14;
     text-transform: uppercase;
 }
+
 .index-text1 {
     line-height: 1.71;
 }
+
 .section-team {
     height: 648px;
     background-color: var(--button-background-color);
     flex-flow: row nowrap;
 }
+
 .index-title2 {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
 }
+
 .index-text2 {
-    font-size:16px;
+    font-size: 16px;
     line-height: 1.19;
 }
+
 .footer {
     height: 252px;
     background-color: #2F303A;
 }
+
 .text-footer {
     text-decoration: none;
     color: var(--secondary-title-color);
@@ -139,11 +159,13 @@
     font-size: 14px;
     line-height: 1.7;
 }
+
 .text-footer:focus,
 .text-footer:hover,
 .text-footer:active {
     color: var(--accent-color);
 }
+
 .text-footer60 {
     text-decoration: none;
     color: var(--footer-color-60);
@@ -151,11 +173,13 @@
     font-style: normal;
     line-height: 1.7;
 }
+
 .text-footer60:focus,
 .text-footer60:hover,
 .text-footer60:active {
     color: var(--accent-color);
 }
+
 .button-portfolio {
     background-color: var(--button-background-color);
     color: var(--title-text-color);
@@ -166,6 +190,7 @@
     font-size: 16px;
     line-height: 1.63;
 }
+
 .button-portfolio:hover,
 .button-portfolio:focus,
 .button-portfolio:active {
@@ -175,25 +200,30 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
 .portfolio-title {
     color: var(--title-text-color);
     font-size: 18px;
     line-height: 1.8;
     letter-spacing: 0.06em;
 }
+
 .portfolio-text {
     font-size: 16px;
-    line-height: 1.88;;
+    line-height: 1.88;
+    ;
 }
+
 .box {
     width: 100%;
     display: flex;
-    list-style:none;
+    list-style: none;
 }
+
 .team {
     background: var(--button-background-color);
 }
 
 .list {
-    list-style:none;
+    list-style: none;
 }
