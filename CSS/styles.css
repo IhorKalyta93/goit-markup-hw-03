@@ -11,6 +11,7 @@
 }
 
 .body {
+
     color: var(--primary-text-color);
     background-color: var(--background-color);
     font-family: Roboto, sans-serif;
@@ -78,10 +79,12 @@
 .button-index:hover,
 .button-index:focus,
 .button-index:active {
+    padding: 0;
     text-decoration: none;
     background-color: var(--accent-color);
     color: var(--secondary-title-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: transparent;
     border-radius: 4px;
     cursor: pointer;
     width: 216px;
@@ -96,15 +99,16 @@
     height: 600px;
     background-color: #2F303A;
     text-align: center;
+    color: var(--secondary-title-color);
 }
 
 .hero-title {
-    color: var(--secondary-title-color);
-    font-style: normal;
+    margin-top: 0;
+    padding-top: 200px;
+    margin-bottom: 25px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -225,5 +229,18 @@
 }
 
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1230;
+    outline: 2px solid teal;
 }
