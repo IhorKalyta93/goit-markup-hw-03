@@ -17,19 +17,22 @@
 </head>
 
 <body class="body">
-    <header class="container">
-        <nav>
-            <a href="./index.html" lang="en" class="logo-web">Web<span class="colortext-black">Studio</span></a>
-            <ul class="list">
-                <li><a class="site-active" href="./index.html">Студія</a></li>
-                <li><a class="site-nav" href="./portfolio.html">Портфоліо</a></li>
-                <li><a class="site-nav" href="">Контакти</a></li>
-            </ul>
-        </nav>
-        <ul class="list">
-            <li><a class="auth-nav" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="auth-nav" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+    <header class="color-test">
+        <div class="container">
+            <nav class="site-nav">
+                <a href="./index.html" lang="en" class="logo-web">Web<span class="colortext-black">Studio</span></a>
+                <ul class="main-nav">
+                    <li class="item"><a href="./index.html" class=link-active>Студія</a></li>
+                    <li class="item"><a href="./portfolio.html" class=link>Портфоліо</a></li>
+                    <li class="item"><a href="" class=link>Контакти</a></li>
+                </ul>
+                <ul class="auth-nav">
+                    <li class="item"><a href="mailto:info@devstudio.com" class="item">info@devstudio.com</a></li>
+                    <li class="item"><a href="tel:+380961111111" class="item">+38 096 111 11
+                            11</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
 
@@ -38,14 +41,16 @@
 =========================================-->
     <section class="hero">
         <!--section поменять на div, чтобы не использовать h1?-->
-        <h1 class="hero-title">Ефективні рішення для<br> вашого бізнесу</h1>
-        <button class="button-index">Замовити послугу</button>
+        <div class="container">
+            <h1 class="hero-title">Ефективні рішення для<br> вашого бізнесу</h1>
+            <button class="button-index">Замовити послугу</button>
+        </div>
     </section>
-    <section>
+    <section class=color-test2>
         <!--скрытый h2 НАШІ ПЕРЕВАГИ-->
         <h2 class="index-title1">Наші переваги</h2>
         <div class="container">
-            <ul class="box">
+            <ul>
                 <li class="list">
                     <h3 class="index-title1">УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p class="index-text1">Ідейні міркування, і навіть початок повсякденної роботи з формування
@@ -69,34 +74,34 @@
             </ul>
         </div>
     </section>
-    <section>
-        <div class="container"></div>
-        <h2 class="index-title0">Чим ми займаємося</h2>
-        <ul class="box">
-            <!--заголовок для семантики, который есть в коде, но не виден пользователю-->
-            <li class="list"><img src="images/img1.jpg" alt="Набір тексу на клавіатурі" width="370"></li>
-            <li class="list"><img src="images/img2.jpg" alt="Користування ПК з телефоном" width="370"></li>
-            <li class="list"><img src="images/img3.jpg" alt="Підбір кольору на планшеті" width="370"></li>
-        </ul>
+    <section class="section color-test">
+        <div class="container">
+            <h2 class="index-title0">Чим ми займаємося</h2>
+            <ul>
+                <!--заголовок для семантики, который есть в коде, но не виден пользователю-->
+                <li class="list"><img src="images/img1.jpg" alt="Набір тексу на клавіатурі" width="370"></li>
+                <li class="list"><img src="images/img2.jpg" alt="Користування ПК з телефоном" width="370"></li>
+                <li class="list"><img src="images/img3.jpg" alt="Підбір кольору на планшеті" width="370"></li>
+            </ul>
         </div>
     </section>
-    <section class="team">
+    <section class="section team">
         <div class="container">
             <h2 class="index-title0">Наша команда</h2>
-            <ul class="box">
-                <li class="item"><img src="images/img21.jpg" alt="Ігор Дем'яненко Product Designer" width="270">
+            <ul class="list">
+                <li><img src="images/img21.jpg" alt="Ігор Дем'яненко Product Designer" width="270">
                     <h3 class="index-title2">Ігор Дем'яненко</h3>
                     <p class="index-text2">Product Designer</p>
                 </li>
-                <li class="item"><img src="images/img22.jpg" alt="Ольга Рєпіна Frontend Developer" width="270">
+                <li><img src="images/img22.jpg" alt="Ольга Рєпіна Frontend Developer" width="270">
                     <h3 class="index-title2">Ольга Рєпіна</h3>
                     <p class="index-text2">Frontend Developer</p>
                 </li>
-                <li class="item"><img src="images/img23.jpg" alt="Микола Тарасов Маркетолог" width="270">
+                <li><img src="images/img23.jpg" alt="Микола Тарасов Маркетолог" width="270">
                     <h3 class="index-title2">Микола Тарасов</h3>
                     <p class="index-text2">Marketing</p>
                 </li>
-                <li class="item"><img src="images/img24.jpg" alt="Михайло Єрмаков UI дизайнер" width="270">
+                <li><img src="images/img24.jpg" alt="Михайло Єрмаков UI дизайнер" width="270">
                     <h3 class="index-title2">Михайло Єрмаков</h3>
                     <p class="index-text2">UI Designer</p>
                 </li>
