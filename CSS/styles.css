@@ -6,7 +6,7 @@
     --footer-color: #000000;
     --secondary-title-color: #ffffff;
     --button-background-color: #F5F4FA;
-    --background-color: color #F5F5F5;
+    --background-color: color #FFFFFF;
     --background-color-dark: color #2F303A;
 }
 
@@ -98,8 +98,8 @@
 .hero {
     height: 600px;
     background-color: #2F303A;
-    text-align: center;
     color: var(--secondary-title-color);
+    text-align: center;
 }
 
 .hero-title {
@@ -111,9 +111,11 @@
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .index-title0 {
+    margin-bottom: 50px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -122,6 +124,8 @@
 }
 
 .index-title1 {
+    margin: 0;
+    margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -130,6 +134,8 @@
 }
 
 .index-text1 {
+    text-align: left;
+    margin: 0;
     line-height: 1.71;
 }
 
@@ -219,6 +225,10 @@
 }
 
 .box {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 0;
     width: 100%;
     display: flex;
     list-style: none;
@@ -226,16 +236,18 @@
 
 .team {
     background: var(--button-background-color);
+
 }
 
 .list {
     padding: 0;
-    margin: 0;
+    margin-bottom: 0px;
+    margin-right: 30px;
     list-style: none;
 }
 
 .container {
-    margin: 0;
+    margin-bottom: 94px;
     padding: 0;
     text-align: center;
     display: inline-block;
