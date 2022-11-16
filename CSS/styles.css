@@ -21,17 +21,39 @@
     letter-spacing: 0.03em;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
+
+ul,
+li {
+    margin: 0;
+}
+
 .list {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
+
+
 .container {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
     outline: 2px solid teal;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo-web {
@@ -55,18 +77,21 @@
 .site-nav {
     display: flex;
     align-items: center;
-    height: 80px;
+    /* height: 80px; */
 }
 
 .main-nav {
+    margin: 0;
+    padding: 0;
     display: flex;
     list-style: none;
     margin-left: 93px;
 }
 
 .main-nav li {
+    margin: 0;
+    padding: 0;
     margin-right: 50px;
-    outline: 2px solid cornflowerblue;
 }
 
 .main-nav .item:last-child {
@@ -75,6 +100,7 @@
 
 .main-nav .link {
     display: block;
+    margin: 0;
     text-decoration: none;
     color: var(--title-text-color);
     font-weight: 500;
@@ -82,6 +108,7 @@
     letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
+    box-sizing: border-box;
 }
 
 .link-active {
@@ -93,6 +120,7 @@
     letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
+    box-sizing: border-box;
 }
 
 
@@ -103,12 +131,16 @@
 }
 
 .auth-nav {
+    margin: 0;
     display: flex;
     list-style: none;
     margin-left: auto;
+    text-decoration: none;
+
 }
 
 .auth-nav .item {
+    padding: 0;
     display: flex;
     text-decoration: none;
     color: var(--primary-text-color);
@@ -118,19 +150,27 @@
     padding-top: 32px;
     padding-bottom: 32px;
     list-style: none;
+    box-sizing: border-box;
+}
+
+.auth-link {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .auth-nav .item+.item {
     margin-left: 30px;
 }
 
-.auth-nav .item:hover,
-.auth-nav .item:focus,
-.auth-nav .item:active {
+.auth-link:hover,
+.auth-link:focus,
+.auth-link:active {
+    text-decoration: none;
     color: var(--accent-color);
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .button-index,
@@ -215,6 +255,8 @@
 }
 
 .index-text2 {
+    margin: 0;
+    padding: 0;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
