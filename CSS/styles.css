@@ -350,14 +350,18 @@ header {
     line-height: 1.2;
 }
 
-.adress-list {
+.address-list {
     list-style: none;
     margin-top: 20px;
 }
 
-.adress-list .item {
+.address-list .item {
     margin: 0;
     margin-bottom: 9px;
+}
+
+.address-list .item:last-child {
+    margin-bottom: 0px;
 }
 
 .text-footer {
