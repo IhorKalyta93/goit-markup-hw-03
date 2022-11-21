@@ -204,6 +204,7 @@ ul {
     color: var(--primary-text-color);
     padding-top: 32px;
     padding-bottom: 32px;
+    display: block;
 }
 
 .auth-nav .item+.item {
