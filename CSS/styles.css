@@ -270,7 +270,7 @@ ul {
 }
 
 .features .item {
-    flex-basis: calc((100% - 30px * 3) / 3);
+    flex-basis: calc((100% - 30px * 2) / 3);
     border-bottom: 5px;
     border-bottom-right-radius: 5px;
 }
