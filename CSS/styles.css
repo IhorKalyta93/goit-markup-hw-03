@@ -29,7 +29,6 @@ h1,
 h2,
 h3,
 h4,
-a,
 p {
     margin-top: 0;
     margin-bottom: 0;
@@ -40,15 +39,12 @@ img {
 }
 
 ul {
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+
 
 .section {
     padding-top: 94px;
@@ -74,7 +70,7 @@ ul {
     margin: -1px;
 }
 
-header {
+.header {
     border-bottom: 1px;
     border-bottom-style: solid;
     border-color: rgba(236, 236, 236, 1);
@@ -83,7 +79,11 @@ header {
 .container-header {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
@@ -101,14 +101,14 @@ header {
 }
 
 .advantages-list {
-    padding: 0;
-    list-style: none;
+
     display: flex;
     gap: 30px;
 }
 
 .advantages-list .item {
-    padding: 0;
+    flex-basis: calc((100% - 30px * 3) / 4);
+
 }
 
 .about {
@@ -142,23 +142,20 @@ header {
 }
 
 .main-nav {
-    margin: 0;
-    padding: 0;
     display: flex;
-    list-style: none;
     margin-left: 93px;
 }
 
-.main-nav li {
-    margin: 0;
-    padding: 0;
+.main-nav .item {
     margin-right: 50px;
 }
 
+.main-nav .item:last-child {
+    margin-right: 0px;
+}
 
 .main-nav .link {
     display: block;
-    margin: 0;
     text-decoration: none;
     color: var(--title-text-color);
     font-weight: 500;
@@ -167,7 +164,6 @@ header {
     letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
-    box-sizing: border-box;
 }
 
 .link-active {
@@ -180,7 +176,6 @@ header {
     letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
-    box-sizing: border-box;
 }
 
 
@@ -191,34 +186,22 @@ header {
 }
 
 .auth-nav {
-    margin: 0;
     display: flex;
-    list-style: none;
     margin-left: auto;
     text-decoration: none;
-
-
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
 }
 
 .auth-nav .item {
-    padding: 0;
-    display: flex;
-    text-decoration: none;
-    font-size: 14px;
     color: var(--primary-text-color);
-    letter-spacing: 0.02em;
-    list-style: none;
-    box-sizing: border-box;
-
 }
 
 
 .auth-link {
     text-decoration: none;
     color: var(--primary-text-color);
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -230,9 +213,7 @@ header {
 .auth-link:hover,
 .auth-link:focus,
 .auth-link:active {
-    text-decoration: none;
     color: var(--accent-color);
-    display: flex;
 }
 
 .button-index {
@@ -249,6 +230,11 @@ header {
     line-height: 1.85;
     font-weight: 700;
 
+}
+
+.button-index:hover,
+.button-index:focus {
+    background-color: rgba(24, 140, 232, 1);
 }
 
 
@@ -279,21 +265,18 @@ header {
 }
 
 .features {
-    padding: 0;
-    list-style: none;
     display: flex;
     gap: 30px;
 }
 
 .features .item {
-    padding: 0;
+    flex-basis: calc((100% - 30px * 3) / 3);
     border-bottom: 5px;
     border-bottom-right-radius: 5px;
 }
 
 
 .index-title0 {
-    margin: 0px;
     margin-bottom: 50px;
     color: var(--title-text-color);
     font-size: 36px;
@@ -327,8 +310,6 @@ header {
 }
 
 .index-text2 {
-    margin: 0;
-    padding: 0;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -338,25 +319,21 @@ header {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--background-color-dark);
-
 }
 
 .logo-footer {
-    padding: 0;
+    display: block;
     text-decoration: none;
     color: var(--accent-color);
     font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.2;
+    margin-bottom: 20px;
 }
 
-.address-list {
-    list-style: none;
-    margin-top: 20px;
-}
+.address-list {}
 
 .address-list .item {
-    margin: 0;
     margin-bottom: 9px;
 }
 
@@ -378,7 +355,7 @@ header {
     color: var(--accent-color);
 }
 
-.text-footer60 {
+.text-footer-contact {
     text-decoration: none;
     color: var(--footer-color-60);
     font-size: 14px;
@@ -388,10 +365,8 @@ header {
 
 .portfolio-filter {
     padding-bottom: 50px;
-    list-style: none;
     display: flex;
     align-items: center;
-    list-style: none;
     justify-content: center;
     gap: 8px;
 }
@@ -434,7 +409,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    list-style: none;
 }
 
 .portfolio .item {
@@ -470,13 +444,12 @@ header {
 .team {
     display: flex;
     background: var(--button-background-color);
-    list-style: none;
     gap: 30px;
 }
 
 .team .item {
+    flex-basis: calc((100% - 30px * 3) / 4);
     background-color: var(--secondary-title-color);
-    padding: 0;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
